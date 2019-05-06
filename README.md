@@ -4,5 +4,5 @@ This scipt reads the exif data of pictures and arranges them by their creation d
 
 Usage:
 ```
-.\pics.sh targetfolder
+./pics.sh targetfolder
 ```

@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ "$#" -ne 1 ]
+then
+	echo "Usage: ./pics.sh target_folder"
+	exit 1
+fi
+
 for file in $1/*
 do
 	if [ -d $1 ]
